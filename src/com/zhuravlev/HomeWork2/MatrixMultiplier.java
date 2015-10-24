@@ -8,16 +8,15 @@ public class MatrixMultiplier {
 
     public static void main(String[] args) {
         int[][] first = {
-                {1, 2},
-                {3, 4},
-                {7, 5},
-                {4, 3}
+                {1, 2, 3, 4},
+                {3, 4, 5, 6 },
+                {7, 5, 4, 1 }
         };
         int[][] second ={
-                {1, 2, 3, 4},
-                {3, 2, 5, 6},
-                {7, 2, 7, 8},
-                {3, 2, 3, 4}
+                {1,2 },
+                {3,2 },
+                {7,2 },
+                {3,2 }
         };
         int firstLength = first.length;
         int secondLength = second[0].length;

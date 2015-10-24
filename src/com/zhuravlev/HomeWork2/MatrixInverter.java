@@ -14,6 +14,10 @@ public class MatrixInverter {
         };
         int[][] result;
         for(int index = 0; index < array.length; index++){
+            for (int inner = 0; inner < array.length; inner++){
+
+            }
+
 
         }
     }
