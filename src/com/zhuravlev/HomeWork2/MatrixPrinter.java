@@ -14,13 +14,13 @@ public class MatrixPrinter {
                 {7, 5, 4, 1}
         };
 
-        for (int index = 0;index < array.length; index++){
+        for (int index = 0; index < array.length; index++) {
             for (int inner = 0; inner <= array.length; inner++) {
                 System.out.print(array[index][inner] + ", ");
             }
             System.out.println();
         }
-        for(int[] index : array){
+        for (int[] index : array) {
             for (int inner : index)
                 System.out.print(inner + ", ");
             System.out.println();

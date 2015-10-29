@@ -11,8 +11,8 @@ public class TriangelSquare {
         float square = 0;
 
         //We find the length of the sides of the triangle
-        square =((x1 - x2)*(y1 - y3))-((x1 - x3)*(y1 - y2));
-        square = square/2;
+        square = ((x1 - x2) * (y1 - y3)) - ((x1 - x3) * (y1 - y2));
+        square = square / 2;
         //
         double AB = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         double AC = Math.sqrt(Math.pow(x3 - x1, 2) + Math.pow(y3 - y1, 2));
