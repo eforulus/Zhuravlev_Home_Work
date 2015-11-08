@@ -15,6 +15,7 @@ public class MatrixInverter {
                 {9, 0, 1, 9},
                 {3, 4, 3, 7}
         };
+        int[][] result;
         /*Check equality of the sides of the matrix! If not, it displays an error!*/
         if (array.length != array[0].length) {
             System.out.println("Error!" +
@@ -29,6 +30,7 @@ public class MatrixInverter {
                     System.out.print(j + " ");
                 System.out.println();
             }
+
 
             /*introduce a temporary variable! tmp
             *mirror your matrix about the main diagonal */
@@ -66,4 +68,6 @@ public class MatrixInverter {
 
         }
     }
+
+
 }

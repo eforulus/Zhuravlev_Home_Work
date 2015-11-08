@@ -30,15 +30,16 @@ public class Node {
 
     public void removeLast() {
         Node last = this;
-        while (last.getNext().getNext() != null) {
+        while (last.getNext() != null) {
             last = last.getNext();
         }
         last.setNext(null);
     }
 
     public void print(Node head) {
-        System.out.print(head.getValue() + " --> ");
+        System.out.print(head.getValue());
         if (head.getNext() != null) {
+            System.out.print(" --> ");
             print(head.getNext());
         }
         System.out.println();
